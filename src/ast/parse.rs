@@ -1,7 +1,6 @@
 
 use std::vec::IntoIter;
-use crate::lex::Token;
-use crate::ast::Expression;
+use crate::types::*;
 
 pub fn parse(tokens: Vec<Token>) -> Result<Vec<Expression>, String> {
 	let mut expressions: Vec<Expression> = Vec::new();

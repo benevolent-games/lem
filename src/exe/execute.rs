@@ -1,5 +1,5 @@
 
-use crate::ast::Expression;
+use crate::types::*;
 use std::{
 	rc::Rc,
 	cell::RefCell,

@@ -1,7 +1,7 @@
 
-use crate::lex::Token;
 use std::str::Chars;
 use std::iter::Peekable;
+use crate::types::*;
 
 pub fn tokenize(input: &str) -> Vec<Token> {
 	let mut tokens = Vec::new();

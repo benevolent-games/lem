@@ -1,4 +1,5 @@
 
+mod types;
 mod lex;
 mod ast;
 mod exe;

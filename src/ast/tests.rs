@@ -1,6 +1,6 @@
 
 use super::*;
-use crate::lex::*;
+use crate::types::*;
 
 #[test]
 fn parse_number() {
